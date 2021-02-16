@@ -5,5 +5,3 @@ RUN apt install npm -y
 RUN apt install apache2 -y
 
 RUN git clone https://github.com/ManashRoyINT/Hello.git
-
-RUN node /root/Hello/Script1.js
